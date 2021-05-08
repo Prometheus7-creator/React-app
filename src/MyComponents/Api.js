@@ -8,7 +8,9 @@ if (error) return "Error!";
 return (
 <>
 <img src={data.[0].thumbnail.small} alt="random user" />
-<pre>{JSON.stringify(data, null, 2)}</pre>
+<img src={data.[1].thumbnail.small} alt="random user" />
+<img src={data.[2].thumbnail.small} alt="random user" />
+<img src={data.[3].thumbnail.small} alt="random user" />
 </>
 );
 }
